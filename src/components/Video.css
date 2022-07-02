@@ -1,0 +1,112 @@
+#video {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    background-color: #18082599;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.hero .content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 50%;
+}
+
+.hero .content h1 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Syne' ;
+    margin-top: 1rem;
+    left: 100;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.frase{
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+    color: #fff;
+    font-family: 'Be Vietnam Pro';
+    line-height: 2rem;
+
+}
+
+.hero .btn {
+    margin: 1rem .1rem ;
+    border-radius: 5px;
+}
+
+.social{
+    padding: 2rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.margen{
+    margin: 3rem;
+}
+
+
+
+@media screen and (max-width:550px) {
+
+    .hero{
+        flex: 1;
+        
+    }
+    .hero .content h1 {
+        font-size: 2rem;
+        font-family: 'Syne';
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+    .content{
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+
+    .content p {
+        font-family: 'Be Vietnam Pro';
+        font-size: 1rem;
+        margin-bottom: 1.6rem;
+        padding: 4rem;
+        align-items: start;
+
+    }
+
+    .buttons{
+     padding: 30px;
+    }
+
+    .social{
+        padding-bottom: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .hero .content .social {
+        padding-bottom: 3rem;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+

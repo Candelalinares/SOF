@@ -1,0 +1,17 @@
+
+.dwl{
+    cursor: pointer;
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Be Vietnam Pro';
+}
+
+.btn_dwl{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    color: #941686  ;
+}

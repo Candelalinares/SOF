@@ -1,0 +1,55 @@
+.sc-bczRLJ .dRPAKU{
+    background: url('../assets/heroImg.jpg') no-repeat center center/cover;
+}
+
+.iACeIh p {
+    font-family: 'Be Vietnam Pro';
+}
+
+.question{
+    color: #fff;
+}
+
+.question:hover{
+    color:#A6382E ;
+}
+
+.question:hover:active{
+    color:#A6382E ;
+}
+
+.answer{
+    color: #fff;
+    margin: 2rem;
+}
+
+.answer1{
+    margin: 0,5rem;
+    padding: 0.5rem;
+}
+
+.answer2{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.answer3{
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.sc-dkzDqf{
+    width: 800px;
+}
+
+.icon{
+    color: #000;
+}
+
+.icon:active{
+    color: #A6382E;
+}
+
+.container{
+    color: aquamarine;
+}
